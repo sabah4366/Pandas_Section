@@ -87,8 +87,41 @@ x=[1,10,4,3,8,5,9,2,7,6]
 y=[1000,1200,200,2000,600,800,1400,1600,1800,400]
 
 colors = ['red', 'green', 'blue','yellow','black','orange','violet','grey','purple','pink']
-plt.bar(x,y,color=colors)
-plt.title("BAR CHART")
-plt.xlabel("X Axis")
-plt.ylabel('Y Axis')
+# plt.bar(x,y,color=colors)
+# plt.title("BAR CHART")
+# plt.xlabel("X Axis")
+# plt.ylabel('Y Axis')
+# plt.show()
+
+
+#14 pie plot using matplotlib
+#pieplot is categorical versus numerical
+#pie plot calculation for each slices is number divide by total *360 
+#eg:[10,30,50,70] -> 10+30+50+70 = 160 so the slice space of 10 in piechart has (10 / 160) * 360 -> that 360 is total degree of pie
+#if you want the percentage in  pie u can pass autopct="%2.if%%" in pie
+#autopct is basically used to display the percentage value using string formatting and it will add percentage in our slices or wedges
+# y = np.array([100,23,59,145])
+# x = np.array(['India','Germany',"China",'America'])
+# plt.pie(y,labels=x,autopct="%12.0f%%")
+# plt.show()
+
+#that method is for return the actual amount instead of percentage in slices
+cost_x = ['Bullet','Himalaya','Pulsar','Access','Activa','Splender']
+bike_y = [230000,400000,190000,80000,90000,145000] 
+# def show_amount(pct,cost_x):
+#     absolute = (pct / 100. * sum(cost_x))
+#     return f"{round(absolute)} OMR" 
+#explode will make cut out of the pie 0 means nothing o.2 or any will goes to outside
+explodes = []
+#this method is for largest value of slice i want make it cut out from the pie
+# max_value = max(cost_x)
+# for cost in cost_x:
+#     if cost == max_value:
+#         explodes.append(0.2)
+#     else:
+#         explodes.append(0)
+
+plt.pie(cost_x,labels=bike_y)   
+# plt.pie(cost_x,labels=bike_y,autopct=lambda pct : show_amount(pct,cost_x))
 plt.show()
+
