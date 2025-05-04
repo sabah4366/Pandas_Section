@@ -1,0 +1,582 @@
+[
+    {
+        "id": 1,
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 2023,
+        "engine": {
+            "type": "Inline-4",
+            "displacement": "2.5L",
+            "horsepower": 203,
+            "torque": "184 lb-ft"
+        },
+        "fuel_type": "Petrol",
+        "transmission": "Automatic",
+        "drive_type": "FWD",
+        "mileage": "29 MPG city / 41 MPG highway",
+        "price_usd": 27000,
+        "features": [
+            "Bluetooth",
+            "Backup Camera",
+            "Adaptive Cruise Control",
+            "Lane Departure Warning"
+        ],
+        "available_colors": [
+            "White",
+            "Black",
+            "Silver",
+            "Red"
+        ]
+    },
+    {
+        "id": 2,
+        "make": "Tesla",
+        "model": "Model Y",
+        "year": 2024,
+        "engine": {
+            "type": "Electric",
+            "battery": "82 kWh",
+            "range": "330 miles",
+            "horsepower": 384
+        },
+        "fuel_type": "Electric",
+        "transmission": "Single-speed",
+        "drive_type": "AWD",
+        "mileage": "Electric Range: 330 miles",
+        "price_usd": 47990,
+        "features": [
+            "Autopilot",
+            "Wireless Charging",
+            "Panoramic Roof",
+            "Touchscreen Display"
+        ],
+        "available_colors": [
+            "White",
+            "Blue",
+            "Black",
+            "Red"
+        ]
+    },
+    {
+        "id": 3,
+        "make": "Honda",
+        "model": "Accord",
+        "year": 2022,
+        "engine": {
+            "type": "Inline-4 Turbo",
+            "displacement": "1.5L",
+            "horsepower": 192,
+            "torque": "192 lb-ft"
+        },
+        "fuel_type": "Petrol",
+        "transmission": "CVT",
+        "drive_type": "FWD",
+        "mileage": "30 MPG city / 38 MPG highway",
+        "price_usd": 26000,
+        "features": [
+            "Apple CarPlay",
+            "Android Auto",
+            "Dual-Zone Climate Control",
+            "Keyless Entry"
+        ],
+        "available_colors": [
+            "Gray",
+            "Black",
+            "Blue",
+            "White"
+        ]
+    },
+    {
+        "id": 4,
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 2023,
+        "engine": {
+            "type": "V8",
+            "displacement": "5.0L",
+            "horsepower": 450,
+            "torque": "410 lb-ft"
+        },
+        "fuel_type": "Petrol",
+        "transmission": "Manual",
+        "drive_type": "RWD",
+        "mileage": "15 MPG city / 24 MPG highway",
+        "price_usd": 55000,
+        "features": [
+            "Performance Package",
+            "LED Headlights",
+            "Track Apps",
+            "Premium Audio"
+        ],
+        "available_colors": [
+            "Red",
+            "Black",
+            "Silver",
+            "Blue"
+        ]
+    },
+    {
+        "id": 5,
+        "make": "Brand5",
+        "model": "Model5",
+        "year": 2022,
+        "engine": {
+            "type": "Inline-4",
+            "displacement": "2.0L",
+            "horsepower": 185,
+            "torque": "175 lb-ft"
+        },
+        "fuel_type": "Electric",
+        "transmission": "Automatic",
+        "drive_type": "AWD",
+        "mileage": "30 MPG city / 35 MPG highway",
+        "price_usd": 25000,
+        "features": [
+            "Air Conditioning",
+            "Cruise Control",
+            "Power Steering",
+            "Heated Seats"
+        ],
+        "available_colors": [
+            "White",
+            "Black",
+            "Gray",
+            "Blue"
+        ]
+    },
+    {
+        "id": 6,
+        "make": "Brand6",
+        "model": "Model6",
+        "year": 2023,
+        "engine": {
+            "type": "Inline-4",
+            "displacement": "2.0L",
+            "horsepower": 186,
+            "torque": "176 lb-ft"
+        },
+        "fuel_type": "Petrol",
+        "transmission": "Automatic",
+        "drive_type": "FWD",
+        "mileage": "31 MPG city / 36 MPG highway",
+        "price_usd": 26000,
+        "features": [
+            "Air Conditioning",
+            "Cruise Control",
+            "Power Steering",
+            "Heated Seats"
+        ],
+        "available_colors": [
+            "White",
+            "Black",
+            "Gray",
+            "Blue"
+        ]
+    },
+    {
+        "id": 7,
+        "make": "Brand7",
+        "model": "Model7",
+        "year": 2024,
+        "engine": {
+            "type": "Inline-4",
+            "displacement": "2.0L",
+            "horsepower": 187,
+            "torque": "177 lb-ft"
+        },
+        "fuel_type": "Electric",
+        "transmission": "Automatic",
+        "drive_type": "AWD",
+        "mileage": "32 MPG city / 37 MPG highway",
+        "price_usd": 27000,
+        "features": [
+            "Air Conditioning",
+            "Cruise Control",
+            "Power Steering",
+            "Heated Seats"
+        ],
+        "available_colors": [
+            "White",
+            "Black",
+            "Gray",
+            "Blue"
+        ]
+    },
+    {
+        "id": 8,
+        "make": "Brand8",
+        "model": "Model8",
+        "year": 2021,
+        "engine": {
+            "type": "Inline-4",
+            "displacement": "2.0L",
+            "horsepower": 188,
+            "torque": "178 lb-ft"
+        },
+        "fuel_type": "Petrol",
+        "transmission": "Automatic",
+        "drive_type": "FWD",
+        "mileage": "33 MPG city / 38 MPG highway",
+        "price_usd": 28000,
+        "features": [
+            "Air Conditioning",
+            "Cruise Control",
+            "Power Steering",
+            "Heated Seats"
+        ],
+        "available_colors": [
+            "White",
+            "Black",
+            "Gray",
+            "Blue"
+        ]
+    },
+    {
+        "id": 9,
+        "make": "Brand9",
+        "model": "Model9",
+        "year": 2022,
+        "engine": {
+            "type": "Inline-4",
+            "displacement": "2.0L",
+            "horsepower": 189,
+            "torque": "179 lb-ft"
+        },
+        "fuel_type": "Electric",
+        "transmission": "Automatic",
+        "drive_type": "AWD",
+        "mileage": "34 MPG city / 39 MPG highway",
+        "price_usd": 29000,
+        "features": [
+            "Air Conditioning",
+            "Cruise Control",
+            "Power Steering",
+            "Heated Seats"
+        ],
+        "available_colors": [
+            "White",
+            "Black",
+            "Gray",
+            "Blue"
+        ]
+    },
+    {
+        "id": 10,
+        "make": "Brand10",
+        "model": "Model10",
+        "year": 2023,
+        "engine": {
+            "type": "Inline-4",
+            "displacement": "2.0L",
+            "horsepower": 190,
+            "torque": "180 lb-ft"
+        },
+        "fuel_type": "Petrol",
+        "transmission": "Automatic",
+        "drive_type": "FWD",
+        "mileage": "25 MPG city / 40 MPG highway",
+        "price_usd": 30000,
+        "features": [
+            "Air Conditioning",
+            "Cruise Control",
+            "Power Steering",
+            "Heated Seats"
+        ],
+        "available_colors": [
+            "White",
+            "Black",
+            "Gray",
+            "Blue"
+        ]
+    },
+    {
+        "id": 11,
+        "make": "Brand11",
+        "model": "Model11",
+        "year": 2024,
+        "engine": {
+            "type": "Inline-4",
+            "displacement": "2.0L",
+            "horsepower": 191,
+            "torque": "181 lb-ft"
+        },
+        "fuel_type": "Electric",
+        "transmission": "Automatic",
+        "drive_type": "AWD",
+        "mileage": "26 MPG city / 41 MPG highway",
+        "price_usd": 31000,
+        "features": [
+            "Air Conditioning",
+            "Cruise Control",
+            "Power Steering",
+            "Heated Seats"
+        ],
+        "available_colors": [
+            "White",
+            "Black",
+            "Gray",
+            "Blue"
+        ]
+    },
+    {
+        "id": 12,
+        "make": "Brand12",
+        "model": "Model12",
+        "year": 2021,
+        "engine": {
+            "type": "Inline-4",
+            "displacement": "2.0L",
+            "horsepower": 192,
+            "torque": "182 lb-ft"
+        },
+        "fuel_type": "Petrol",
+        "transmission": "Automatic",
+        "drive_type": "FWD",
+        "mileage": "27 MPG city / 42 MPG highway",
+        "price_usd": 32000,
+        "features": [
+            "Air Conditioning",
+            "Cruise Control",
+            "Power Steering",
+            "Heated Seats"
+        ],
+        "available_colors": [
+            "White",
+            "Black",
+            "Gray",
+            "Blue"
+        ]
+    },
+    {
+        "id": 13,
+        "make": "Brand13",
+        "model": "Model13",
+        "year": 2022,
+        "engine": {
+            "type": "Inline-4",
+            "displacement": "2.0L",
+            "horsepower": 193,
+            "torque": "183 lb-ft"
+        },
+        "fuel_type": "Electric",
+        "transmission": "Automatic",
+        "drive_type": "AWD",
+        "mileage": "28 MPG city / 43 MPG highway",
+        "price_usd": 33000,
+        "features": [
+            "Air Conditioning",
+            "Cruise Control",
+            "Power Steering",
+            "Heated Seats"
+        ],
+        "available_colors": [
+            "White",
+            "Black",
+            "Gray",
+            "Blue"
+        ]
+    },
+    {
+        "id": 14,
+        "make": "Brand14",
+        "model": "Model14",
+        "year": 2023,
+        "engine": {
+            "type": "Inline-4",
+            "displacement": "2.0L",
+            "horsepower": 194,
+            "torque": "184 lb-ft"
+        },
+        "fuel_type": "Petrol",
+        "transmission": "Automatic",
+        "drive_type": "FWD",
+        "mileage": "29 MPG city / 44 MPG highway",
+        "price_usd": 34000,
+        "features": [
+            "Air Conditioning",
+            "Cruise Control",
+            "Power Steering",
+            "Heated Seats"
+        ],
+        "available_colors": [
+            "White",
+            "Black",
+            "Gray",
+            "Blue"
+        ]
+    },
+    {
+        "id": 15,
+        "make": "Brand15",
+        "model": "Model15",
+        "year": 2024,
+        "engine": {
+            "type": "Inline-4",
+            "displacement": "2.0L",
+            "horsepower": 195,
+            "torque": "185 lb-ft"
+        },
+        "fuel_type": "Electric",
+        "transmission": "Automatic",
+        "drive_type": "AWD",
+        "mileage": "30 MPG city / 30 MPG highway",
+        "price_usd": 35000,
+        "features": [
+            "Air Conditioning",
+            "Cruise Control",
+            "Power Steering",
+            "Heated Seats"
+        ],
+        "available_colors": [
+            "White",
+            "Black",
+            "Gray",
+            "Blue"
+        ]
+    },
+    {
+        "id": 16,
+        "make": "Brand16",
+        "model": "Model16",
+        "year": 2021,
+        "engine": {
+            "type": "Inline-4",
+            "displacement": "2.0L",
+            "horsepower": 196,
+            "torque": "186 lb-ft"
+        },
+        "fuel_type": "Petrol",
+        "transmission": "Automatic",
+        "drive_type": "FWD",
+        "mileage": "31 MPG city / 31 MPG highway",
+        "price_usd": 36000,
+        "features": [
+            "Air Conditioning",
+            "Cruise Control",
+            "Power Steering",
+            "Heated Seats"
+        ],
+        "available_colors": [
+            "White",
+            "Black",
+            "Gray",
+            "Blue"
+        ]
+    },
+    {
+        "id": 17,
+        "make": "Brand17",
+        "model": "Model17",
+        "year": 2022,
+        "engine": {
+            "type": "Inline-4",
+            "displacement": "2.0L",
+            "horsepower": 197,
+            "torque": "187 lb-ft"
+        },
+        "fuel_type": "Electric",
+        "transmission": "Automatic",
+        "drive_type": "AWD",
+        "mileage": "32 MPG city / 32 MPG highway",
+        "price_usd": 37000,
+        "features": [
+            "Air Conditioning",
+            "Cruise Control",
+            "Power Steering",
+            "Heated Seats"
+        ],
+        "available_colors": [
+            "White",
+            "Black",
+            "Gray",
+            "Blue"
+        ]
+    },
+    {
+        "id": 18,
+        "make": "Brand18",
+        "model": "Model18",
+        "year": 2023,
+        "engine": {
+            "type": "Inline-4",
+            "displacement": "2.0L",
+            "horsepower": 198,
+            "torque": "188 lb-ft"
+        },
+        "fuel_type": "Petrol",
+        "transmission": "Automatic",
+        "drive_type": "FWD",
+        "mileage": "33 MPG city / 33 MPG highway",
+        "price_usd": 38000,
+        "features": [
+            "Air Conditioning",
+            "Cruise Control",
+            "Power Steering",
+            "Heated Seats"
+        ],
+        "available_colors": [
+            "White",
+            "Black",
+            "Gray",
+            "Blue"
+        ]
+    },
+    {
+        "id": 19,
+        "make": "Brand19",
+        "model": "Model19",
+        "year": 2024,
+        "engine": {
+            "type": "Inline-4",
+            "displacement": "2.0L",
+            "horsepower": 199,
+            "torque": "189 lb-ft"
+        },
+        "fuel_type": "Electric",
+        "transmission": "Automatic",
+        "drive_type": "AWD",
+        "mileage": "34 MPG city / 34 MPG highway",
+        "price_usd": 39000,
+        "features": [
+            "Air Conditioning",
+            "Cruise Control",
+            "Power Steering",
+            "Heated Seats"
+        ],
+        "available_colors": [
+            "White",
+            "Black",
+            "Gray",
+            "Blue"
+        ]
+    },
+    {
+        "id": 20,
+        "make": "Brand20",
+        "model": "Model20",
+        "year": 2021,
+        "engine": {
+            "type": "Inline-4",
+            "displacement": "2.0L",
+            "horsepower": 200,
+            "torque": "190 lb-ft"
+        },
+        "fuel_type": "Petrol",
+        "transmission": "Automatic",
+        "drive_type": "FWD",
+        "mileage": "25 MPG city / 35 MPG highway",
+        "price_usd": 40000,
+        "features": [
+            "Air Conditioning",
+            "Cruise Control",
+            "Power Steering",
+            "Heated Seats"
+        ],
+        "available_colors": [
+            "White",
+            "Black",
+            "Gray",
+            "Blue"
+        ]
+    }
+]

@@ -106,22 +106,28 @@ colors = ['red', 'green', 'blue','yellow','black','orange','violet','grey','purp
 # plt.show()
 
 #that method is for return the actual amount instead of percentage in slices
-cost_x = ['Bullet','Himalaya','Pulsar','Access','Activa','Splender']
-bike_y = [230000,400000,190000,80000,90000,145000] 
+#numerical shoulf be pass in the first and categorical should be pass in the labels otherwise will get error
+cost_x = [230000,400000,190000,80000,90000,145000]
+bike_y = ['Bullet','Himalaya','Pulsar','Access','Activa','Splender']
 # def show_amount(pct,cost_x):
 #     absolute = (pct / 100. * sum(cost_x))
 #     return f"{round(absolute)} OMR" 
 #explode will make cut out of the pie 0 means nothing o.2 or any will goes to outside
 explodes = []
 #this method is for largest value of slice i want make it cut out from the pie
-# max_value = max(cost_x)
+max_value = max(cost_x)
 # for cost in cost_x:
 #     if cost == max_value:
 #         explodes.append(0.2)
 #     else:
 #         explodes.append(0)
 
-plt.pie(cost_x,labels=bike_y)   
+# plt.pie(cost_x,labels=bike_y,startangle=90,autopct="%2.2f%%") 
+# plt.pie(cost_x,labels=bike_y,explode=explodes,autopct="%2.2f%%")   
 # plt.pie(cost_x,labels=bike_y,autopct=lambda pct : show_amount(pct,cost_x))
-plt.show()
+# plt.show()
 
+
+#15 importing json file 
+jsonfile = pd.read_json('cars_data.json')
+print(jsonfile)
