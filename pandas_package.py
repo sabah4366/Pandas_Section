@@ -130,4 +130,31 @@ max_value = max(cost_x)
 
 #15 importing json file 
 jsonfile = pd.read_json('cars_data.json')
-print(jsonfile)
+# print(jsonfile)
+x_axis = []
+y_axis = []
+
+for index ,row in jsonfile.iterrows():
+    x_axis.append(row['model'])
+    y_axis.append(row['price_usd'])
+#Vertical Barchart
+#we can reduce the width using width parameter in Vertical Barchart
+
+plt.bar(x_axis,y_axis)
+#Horizontal Barchart
+#we can reduce the height using height parameter in Horizontal  Barchart
+# plt.barh(x_axis, y_axis) 
+# taking the axis of the plot for styling the background color  gca -> get current axis
+ax = plt.gca()
+#background color of barchart using the axis of plot
+ax.set_facecolor('red')
+
+plt.show()
+
+#16 barchart
+xaxs = ['Car','Bike','Train',"Flight",'Auto']
+yaxs = [23,45,89,65,55]
+# plt.bar(xaxs,yaxs,edgecolor='Black')
+# plt.xlabel("Transportation")
+# plt.ylabel("Transportation Used")
+# plt.show()
